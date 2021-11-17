@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@500&family=Open+Sans:wght@800&display=swap');
+body {font-family: 'Montagu Slab', serif; font-weight: 400; color: #444; font-size: 14px; line-height: 22px;}
+h1, h2, h3, h4, h5, h6 {font-family: 'Open Sans', sans-serif; letter-spacing: 1px; margin: 0px;}
+.h1 {font-size: 40px; line-height: 50px;}
+.h2 {font-size: 30px; line-height: 40px;}
+.h3 {font-size: 22px; line-height: 28px;}
+.h4 {font-size: 20px; line-height: 26px;}
+.h5 {font-size: 18px; line-height: 22px;}
+.h6 {font-size: 16px; line-height: 20px;}
+p, ul, form, input, textarea {display: block; margin: 0px;}
+.clearfix {clear: both;}
+.text {font-size: 16px; line-height: 26px; font-style: normal; color: #999;}
+.list {padding-left: 35px; list-style: none; list-style-position: outside; list-style-image: url(images/check.png);}
+.list li {margin-bottom: 10px;}
+.link {font-size: 20px; text-decoration: none; color: #bdb811; position: relative; display: inline-block; overflow: hidden; line-height: 26px;}
+.link:after {content: ''; position: absolute; left: -100%; bottom: 0px; height: 1px; width: 100%; background-color: #bdb811; transition: all 0.3s ease-in-out;}
+.link:hover:after {left: 0px;}
+.caption {position: relative; display: inline-block; padding: 5px 10px; color: #fff;}
+.caption:after {content: ''; position: absolute; left: 0px; top: 0px; background-color: #008fd3; width: 100%; height: 100%;}
+.type-2.caption:after {background-color: #d3cd00;}
+.caption span {position: relative; z-index: 2;}
+
+.container {display: block; margin: 0 auto; max-width: 1200px;}
+.section {position: relative; overflow: hidden;}
+.col-50 {position: relative; float: left; width: 50%;}
+.bg {background-position: center; background-repeat: no-repeat; background-size: cover; position: absolute; left: 0; top: 0; width: 100%; height: 100%; transform: scale(0); transition: transform 0.8s ease-out;}
+.animate-bg {transform: scale(1);}
+.img-full {display: block; max-width: 100%; height: auto; position: relative;}
+
+.spacer-10 {margin-bottom: 10px;}
+.spacer-15 {margin-bottom: 15px;}
+.spacer-20 {margin-bottom: 20px;}
+.spacer-30 {margin-bottom: 30px;}
+.spacer-40 {margin-bottom: 40px;}
+.spacer-50 {margin-bottom: 50px;}
+
+.animate-wrap {position: relative; overflow: hidden;}
+.text-animate-1, .text-animate-2, .text-animate-3, .text-animate-4, .text-animate-5 {transition: all 0.3s ease-in; opacity: 0; transform: translateX(-80px);}
+.text-animate-1 {transition-delay: 0.1s;}
+.text-animate-2 {transition-delay: 0.2s;}
+.text-animate-3 {transition-delay: 0.3s;}
+.text-animate-4 {transition-delay: 0.4s;}
+.text-animate-5 {transition-delay: 0.5s;}
+.animate .text-animate-1, .animate .text-animate-2, .animate .text-animate-3, .animate .text-animate-4, .animate .text-animate-5 {opacity: 1; transform: translateX(0);}
+
+.avatar {border: 1px solid #d7d7d7; padding: 30px; position: relative; overflow: hidden;}
+.avatar img {width: 100%;}
+.main-text {padding-left: 30px;}
+.soc-link {position: relative; display: inline-block; width: 50px; height: 50px; border-radius: 50%; transition: all 0.3s ease; text-decoration: none; border: 1px solid #008fd3; margin-right: 8px;}
+.soc-link img {display: block; position: absolute; left: 50%; height: 50%; transform: translate(-50%, 50%) scale(0.8); transition: all 0.3s ease;}
+.soc-link:hover {border-color: transparent;}
+.soc-link:hover img {transform: translate(-50%, 50%) scale(1);}
+.td-caption {font-size: 20px; padding: 10px 20px 10px 0px;}
